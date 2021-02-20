@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: space-between;
   color: white;
-  padding: 20px;
-  height: 60px;
+  padding: 10px;
   overflow-x: scroll;
   overflow-y: hidden;
 }
@@ -44,10 +43,6 @@
   margin-right: auto;
 }
 
-.header__icon:hover > p {
-  display: inline-flex;
-}
-
 .header__icon > p {
   text-transform: uppercase;
   display: none;
@@ -55,6 +50,10 @@
   margin-left: auto;
   margin-right: auto;
   font-size: small;
+}
+
+.header__icon:hover > p {
+  display: inline-flex;
 }
 
 .header__icon--active > p {

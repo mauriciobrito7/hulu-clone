@@ -10,12 +10,10 @@
 }
 
 /*Hide scrollbar for Chrome, Safari and Opera*/
-.header ::-webkit-scrollbar {
+.header::-webkit-scrollbar {
   display: none;
 }
-.header ::-webkit-scrollbar-track {
-  background: red;
-}
+
 /*Hide scrollbar for IE, Edge and Firefox*/
 .header {
   -ms-overflow-style: none; /*IE and Edge*/

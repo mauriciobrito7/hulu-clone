@@ -19,7 +19,7 @@
   }
 }
 
-.videoCard > img {
+.videoCard img {
   height: 300px;
   object-fit: cover;
   width: 100%;
@@ -30,7 +30,7 @@
   transform: scale(1.09);
 }
 
-.videoCard > h2 {
+.videoCard h2 {
   padding-top: 10px;
 }
 

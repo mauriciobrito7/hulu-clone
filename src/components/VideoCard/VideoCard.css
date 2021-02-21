@@ -37,17 +37,17 @@
 .videoCard__stats {
   display: none;
 }
-.videoCard__stats > .MuiSvgIcon-root {
+.videoCard__stats .MuiSvgIcon-root {
   font-size: 1em;
   margin-left: 0.5em !important;
 }
 
-.videoCard__stats > span {
+.videoCard__stats span {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.videoCard:hover > .videoCard__stats {
+.videoCard:hover .videoCard__stats {
   margin-top: 0.5em;
   display: flex;
   justify-content: space-around;
